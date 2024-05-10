@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let password = 'moist';
-let proxyIP = '154.29.150.24';
+let proxyIP = 'us.cmbaby.mom';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
